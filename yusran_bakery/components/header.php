@@ -1,3 +1,9 @@
+<?php
+if (session_status() === PHP_SESSION_NONE) {
+  session_start();
+}
+?>
+
 <header class="bg-gradient-to-r from-brown to-brownDark text-white shadow-md sticky top-0 z-50">
   <div class="max-w-6xl mx-auto flex justify-between items-center px-6 py-3">
 

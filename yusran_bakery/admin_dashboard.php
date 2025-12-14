@@ -9,33 +9,7 @@ if (!isset($_SESSION['admin'])) {
 <!DOCTYPE html>
 <html lang="id">
 
-<head>
-    <?php require("components/head.php"); ?>
-
-    <!-- Tailwind CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- Custom Tailwind Colors -->
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        cream: "#FFF8E7",
-                        brown: "#A47148",
-                        brownDark: "#5C3B23"
-                    }
-                }
-            }
-        }
-    </script>
-
-    <style>
-        body { font-family: 'Poppins', sans-serif; }
-    </style>
-
-    <title>Dashboard Admin</title>
-</head>
+<?php require("components/head.php"); ?>
 
 <body class="bg-cream text-brownDark">
 
